@@ -113,7 +113,7 @@ function getTodos(){
         newTodo.innerText = todo;
         newTodo.classList.add('todo-item');
         todoDiv.appendChild(newTodo);
-    
+        // Added commit
     
         const completedButton = document.createElement('button');
         completedButton.innerHTML = '<i class="fas fa-check"><\i>';
